@@ -46,8 +46,24 @@
 <!--  <iframe src="https://carbon-calculator-kzvv7xpjqnmbcaj8gdpqml.streamlit.app/?embed=true" width="85%" height="500px"></iframe>
 </div> -->
 
-<object type="text/html" align="justified" data="https://carbon-calculator-kzvv7xpjqnmbcaj8gdpqml.streamlit.app/?embed=true" width="100%" height="600px"></object>
+<!-- <object type="text/html" align="justified" data="https://carbon-calculator-kzvv7xpjqnmbcaj8gdpqml.streamlit.app/?embed=true" width="100%" height="600px"></object> -->
+  <div id="iframe-container"></div>
 
+    <script>
+        // Function to create and embed the iframe
+        function embedIframe() {
+            var iframeContainer = document.getElementById("iframe-container");
+
+            var iframe = document.createElement("iframe");
+            iframe.src = "https://carbon-calculator-kzvv7xpjqnmbcaj8gdpqml.streamlit.app/?embed=true";
+            iframe.style.width = "100%";
+            iframe.style.height = "600px";
+            iframeContainer.appendChild(iframe);
+        }
+
+        // Call the function to embed the iframe when the page loads
+        window.onload = embedIframe;
+    </script>
 <div class="resources-section">
   <h2 id="resources">Resources</h2>
   <p>Let's keep the Earth clean, it's not Uranus!</p>
