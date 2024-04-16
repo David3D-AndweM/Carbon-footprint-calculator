@@ -93,4 +93,18 @@
   100% {
     background-color: #0e481e;
   }
-}     
+}    
+#iframe-container {
+            width: 800px; /* Set desired width */
+            margin: 0 auto; /* Center the container horizontally */
+            border: 1px solid #ccc; /* Add a border */
+            border-radius: 8px; /* Add border radius for rounded corners */
+            overflow: hidden; /* Hide overflowing content */
+}
+
+        /* CSS styles for the iframe */
+#iframe-container iframe {
+            width: 100%; /* Fill the container width */
+            height: 600px; /* Set desired height */
+            border: none; /* Remove iframe border */
+}
