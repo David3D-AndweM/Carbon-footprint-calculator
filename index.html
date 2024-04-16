@@ -37,7 +37,19 @@
   </div>
 </div>
 
+  <script>
+        // Function to create and embed the iframe
+        function embedIframe() {
+            var iframeContainer = document.getElementById("iframe-container");
 
+            var iframe = document.createElement("iframe");
+            iframe.src = "https://carbon-calculator-kzvv7xpjqnmbcaj8gdpqml.streamlit.app/?embed=true";
+            iframeContainer.appendChild(iframe);
+        }
+
+        // Call the function to embed the iframe when the page loads
+        window.onload = embedIframe;
+    </script>
 
 <!-- <div id="streamlit_placeholder"  >
   <div class="calculator-section" >
@@ -186,19 +198,7 @@
   });
   </script>
 
-  <script>
-        // Function to create and embed the iframe
-        function embedIframe() {
-            var iframeContainer = document.getElementById("iframe-container");
 
-            var iframe = document.createElement("iframe");
-            iframe.src = "https://carbon-calculator-kzvv7xpjqnmbcaj8gdpqml.streamlit.app/?embed=true";
-            iframeContainer.appendChild(iframe);
-        }
-
-        // Call the function to embed the iframe when the page loads
-        window.onload = embedIframe;
-    </script>
 
 
 </html>
