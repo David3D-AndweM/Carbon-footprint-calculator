@@ -93,15 +93,6 @@
   100% {
     background-color: #0e481e;
   }
-}    
- #iframe-container {
-            width: auto; /* Set desired width */
-            margin: 0 auto; /* Center the container horizontally */
-            padding: 20px; /* Add padding */
-            border: 1px solid #ccc; /* Add a border */
-            border-radius: 8px; /* Add border radius for rounded corners */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
- }
 
         /* CSS styles for the iframe */
 #iframe-container iframe {
