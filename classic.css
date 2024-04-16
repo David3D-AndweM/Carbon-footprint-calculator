@@ -105,7 +105,7 @@
 
         /* CSS styles for the iframe */
 #iframe-container iframe {
-            width: 100%; /* Fill the container width */
+            width: auto; /* Fill the container width */
             height: 600px; /* Set desired height */
             border: none; /* Remove iframe border */
 }
