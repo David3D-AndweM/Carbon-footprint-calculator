@@ -95,13 +95,3 @@
   }
 
         /* CSS styles for the iframe */
-#iframe-container {
-        width: 800px; /* Set desired width */
-        margin: 0 auto; /* Center the container horizontally */
-        background-color: #f0f0f0; /* Set background color */
-        padding: 20px; /* Add padding */
-}
-#iframe-container iframe {
-        width: 100%; /* Fill the container width */
-        height: 600px; /* Set desired height */
-}
