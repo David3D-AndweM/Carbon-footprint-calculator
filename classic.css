@@ -95,7 +95,7 @@
   }
 }    
  #iframe-container {
-            width: 400px; /* Set desired width */
+            width: auto; /* Set desired width */
             margin: 0 auto; /* Center the container horizontally */
             padding: 20px; /* Add padding */
             border: 1px solid #ccc; /* Add a border */
